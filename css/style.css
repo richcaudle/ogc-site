@@ -1,0 +1,32 @@
+body {
+	background-color: #000;
+	color: #fff;
+	font-family: Verdana, sans-serif;
+}
+
+h1 {
+	margin: 0.8em auto 0.6em auto;
+	font-size: 4em;
+}
+
+h2 {
+	margin: 0.5em 0;
+}
+
+p {
+	font-size: 1em;
+	margin-bottom: 1em;	
+}
+
+.bg-dark {
+	background-color: #000 !important;
+}
+
+.main_image {
+	margin-bottom: 2em;
+}
+
+.main_image img {
+	margin: 0 auto;
+	width:100%;
+}
