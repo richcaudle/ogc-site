@@ -1,16 +1,31 @@
 body {
-	background-color: #000;
-	color: #fff;
+	background-color: #fff;
+	color: #333;
 	font-family: Verdana, sans-serif;
 }
 
 h1 {
-	margin: 0.8em auto 0.6em auto;
-	font-size: 4em;
+	display: block;
+	width: 100%;
+	text-align: center;
+	background-image: url("/images/main-heading-tile.jpg");
+	background-repeat: repeat-x;
+	
+}
+
+h1 img {
+	margin: 0 auto;
 }
 
 h2 {
+	font-size: 2.6em;
+	color: #ee2b7a;
+	margin: 0.8em 0 0 0;
+}
+
+h3 {
 	margin: 0.5em 0;
+	font-size: 2em;
 }
 
 p {
@@ -22,11 +37,6 @@ p {
 	background-color: #000 !important;
 }
 
-.main_image {
-	margin-bottom: 2em;
-}
-
-.main_image img {
-	margin: 0 auto;
-	width:100%;
+.section_image img {
+	width: 100%;
 }
