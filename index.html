@@ -11,6 +11,19 @@
     <link rel="stylesheet" href="css/style.css" >
 
     <title>Oxford Gospel Choir</title>
+
+    <script type="text/javascript" src="lib/jquery/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        console.log( "ready!" );
+        var username = "info";
+        var hostname = "oxgordgospelchoir.co.uk";
+        var linktext = username + "@" + hostname ;
+        $("#contact_email").html("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
+      });
+    </script>
+
+
   </head>
   <body>
     <div class="container-fluid">
@@ -35,11 +48,14 @@
                 <p>We sing a variety of styles from traditional and contemporary gospel, popular chart songs to African spirituals and everything in between.</p>
                 <hr />
                 <h2>Join us!</h2>
-                <p>No previous singing experience necessary – no auditions! We rehearse every Tuesday 7.30 – 9.30pm at <a href="http://www.wesleymem.org.uk/welcome.htm">Wesley Memorial Church, New Inn Hall Street, Oxford</a>.  We’d love to see you when we start back after the summer break in September.<p>
+                <p>Rehearsals are now closed to new members as we are preparing for our Summer concert. Come and see us do our thing then join us next term starting on September 4th. We rehearse Tuesdays 7.30 – 9.30pm at <a href="http://www.wesleymem.org.uk/welcome.htm">Wesley Memorial Church, New Inn Hall Street, Oxford</a>.<p>
                 <hr />
                 <a name="social" />
                 <h2>Keep in touch</h2>
-                <p>Social...<p>
+                <p>Visit our <a href="https://www.facebook.com/oxfordgospelchoir/">Facebook page</a> to keep up with our latest news and events.<p>
+                <p>Email us at <span id="contact_email"></span> to get in touch.</p>
+
+
               </div> 
               <div class="col">
                 <a name="concert" />
