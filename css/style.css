@@ -46,7 +46,7 @@ p {
 	width: 100%;
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 801px) {
     .fixed-top-heading {
 	    position: fixed;
 	    top: 0;
@@ -56,7 +56,7 @@ p {
 	}
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     h1 img {
 		height: 100px;
 	}
