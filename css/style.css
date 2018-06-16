@@ -8,7 +8,7 @@ h1 {
 	display: block;
 	width: 100%;
 	text-align: center;
-	background-image: url("/images/main-heading-tile.jpg");
+	background-image: url("../images/main-heading-tile.jpg");
 	background-repeat: repeat-x;
 	
 }
