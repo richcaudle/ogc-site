@@ -89,6 +89,7 @@ dl {
 dl dt, dl dd {
 	margin: 1px;
 	display: inline-block;
+	vertical-align: top;
 }
 
 dl dt {
